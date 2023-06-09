@@ -1,0 +1,40 @@
+.navbar-header{
+    padding-left: 5%;
+}
+
+.list-items{
+    padding-right: 10%;
+    gap: 40px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #F4F6F7;
+    width: 100%;
+    height: 8%;
+    text-align: center;
+    color: black;
+    padding: 15px 0;
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input[type = text], #postitle, textarea{
+    width: 90%;
+    height: 40px;
+}
+
+textarea{
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
